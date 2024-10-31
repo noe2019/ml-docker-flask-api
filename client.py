@@ -18,7 +18,7 @@ data = [[4.3, 3. , 1.1, 0.1],
        [5.1, 3.3, 1.7, 0.5],
        [4.8, 3.4, 1.9, 0.2]]
 
-url = 'http://0.0.0.0:8000/predict/'
+url = 'http://localhost:8000/predict/'
 
 predictions = []
 for record in data:
